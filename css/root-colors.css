@@ -1,0 +1,52 @@
+:root {
+    
+    --color__grey_shade_1: /*rgb(241 239 243); /* #f1eff3;*/ hsl(0deg 0% 93%);
+    --color__grey_shade_2: /*rgb(211 208 212); /* #d3d0d4;*/ hsl(0deg 0% 88%);
+    --color__grey_shade_3: /*rgb(187 183 187); /* #bbb7bb;*/ hsl(0deg 0% 83%);
+    --color__grey_shade_4: /*rgb(165 161 165); /* #a5a1a5;*/ hsl(0deg 0% 78%);
+    --color__grey_shade_5: /*rgb(145 140 144); /* #918c90;*/ hsl(0deg 0% 73%);
+    --color__grey_shade_6: /*rgb(125 121 125); /* #7d797d;*/ hsl(0deg 0% 68%);
+    --color__grey_shade_7: /*rgb(108 103 108); /* #6c676c;*/ hsl(0deg 0% 63%);
+    --color__grey_shade_8: /*rgb(92 88 92); /* #5c585c;*/ hsl(0deg 0% 58%);
+    --color__grey_shade_9: /*rgb(77 74 78); /* #4d4a4e;*/ hsl(0deg 0% 53%);
+    --color__grey_shade_10: /*rgb(63 61 66); /* #3f3d42;*/ hsl(0deg 0% 48%);
+    --color__grey_shade_11: /*rgb(49 49 54); /* #313136;*/ hsl(0deg 0% 43%);
+
+
+    /* BLUE JEANS           #2fa5fc Pantone 285C?           R:47 G:165 B:252    C:81 M:35 Y:0 K:1 */
+    /* BLUE DE FRANCE       #0982e5 Pantone 285C?           R:9 G:130 B:229     C:96 M:43 Y:0 K:10 */
+    /* BRIGHT NAVY BLUE     #2979bf Pantone 7683C           R:41 G:121 B:191    C:79 M:37 Y:0 K:25 */
+    /* EGYPTIAN BLUE        #163197 Pantone 7687C           R:22 G:49 B:151     C:85 M:68 Y:0 K:41 */
+    /* ROYAL BLUE DARK      #002c75 Pantone Cool Gray 2C?   R:0 G:44 B:117      C:100 M:62 Y:0 K:54 */
+    /* OXFORD BLUE          #19243a Pantone 5535C           R:25 G:36 B:58      C:57 M:38 Y:0 K:77 */
+    /* PLATINUM             #2fa5fc Pantone Cool Gray 1C    R:230 G:230 B:230   C81 M:35 Y:0 K:1 */
+    /* GAINSBORO            #d9dada Pantone Cool Gray 2C?   R:217 G:218 B:218   C:0 M:0 Y:0 K:15 */
+    
+    
+    --color__blue_jeans: #2fa5fc;
+    --color__blue_de_france: #0982e5;
+    --color__bright_navy_blue: #2979bf;
+    --color__egyptian_blue: #163197;
+    --color__royal_blue_dark: #002c75;
+    --color__oxford_blue: #19243a;
+
+    --color__blue_shade_1: #2fa5fc; /* BLUE JEANS */
+    --color__blue_shade_2: #0982e5; /* BLUE DE FRANCE */
+    --color__blue_shade_3: #0160cb;
+    --color__blue_shade_4: #0153b6;
+    --color__blue_shade_5: #0146a0;
+    --color__blue_shade_6: #00398b;
+    --color__blue_shade_7: #002c75; /* ROYAL BLUE DARK */
+    
+    --color__platinum: #2fa5fc;
+    --color__gainsboro: #d9dada;
+
+    --color__gray_shade_1: #f2f2f2;
+    --color__gray_shade_2: #cccccc;
+    --color__gray_shade_3: #a5a5a5;
+    --color__gray_shade_4: #808080;
+    --color__gray_shade_5: #5a5a5a;
+    --color__gray_shade_6: #4d4d4d;
+    --color__gray_shade_7: #464646;
+    
+}

@@ -1,0 +1,18 @@
+/* SECTIONS ============================================================================== */
+:root {
+    --local_scale_factor: var(--scale_factor);
+    --header__min_height: 80px;
+    --ir_navbar__min_height: 80px;
+    /*--sub_navbar__min_height: 292px;*/
+    /*--header_hover__min_height: 434px;*/
+    
+}
+@media (min-width: 768px) {
+    :root .fluid, :root .fluid-md {
+        /*--header__min_height: calc(100vw / calc(1920 / 155));*/
+        --header__min_height: calc(100vw / calc(1920 / 125));
+        --ir_navbar__min_height: calc(100vw / calc(1920 / 80));
+        /*--sub_navbar__min_height: calc(100vw / calc(1920 / 292));*/
+        /*--header_hover__min_height: calc(100vw / calc(1920 / 434));*/
+    }
+}

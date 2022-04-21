@@ -1,0 +1,330 @@
+:root {
+    --font__size_body: calc(var(--scale_factor) * 1px);
+}
+@media (min-width: 420px) {
+    :root {
+        --font__size_body: calc(var(--scale_factor) * 1px);
+    }
+}
+@media (min-width: 768px) {
+    :root {
+        --font__size_body: calc(var(--scale_factor) * 1px);
+    }
+}
+
+:root {
+    --font__size_small_6: calc(var(--font__size_body) * .5325);
+    --font__size_small_5: calc(var(--font__size_body) * .5625);
+    --font__size_small_4: calc(var(--font__size_body) * .6);
+    --font__size_small_3: calc(var(--font__size_body) * .75);
+    --font__size_small_2: calc(var(--font__size_body) * .8125);
+    --font__size_small_1: calc(var(--font__size_body) * .875);
+    --font__size_small_0: calc(var(--font__size_body) * .925);
+    --font__size_normal: calc(var(--font__size_body) * 1.1);
+    --font__size_large_1: calc(var(--font__size_body) * 1.125);
+    --font__size_large_2: calc(var(--font__size_body) * 1.25);
+    --font__size_large_3: calc(var(--font__size_body) * 1.5);
+    --font__size_large_4: calc(var(--font__size_body) * 1.75);
+    --font__size_large_5: calc(var(--font__size_body) * 2);
+    --font__size_large_6: calc(var(--font__size_body) * 2.25);
+    --font__size_large_7: calc(var(--font__size_body) * 2.5);
+    --font__size_large_8: calc(var(--font__size_body) * 3);
+    --font__size_large_9: calc(var(--font__size_body) * 3.5);
+    --font__size_large_10: calc(var(--font__size_body) * 4);
+    --font__letter_spacing_n10: -.1em;
+    --font__letter_spacing_n9: -.09em;
+    --font__letter_spacing_n8: -.08em;
+    --font__letter_spacing_n7: -.07em;
+    --font__letter_spacing_n6: -.06em;
+    --font__letter_spacing_n5: -.05em;
+    --font__letter_spacing_n4: -.04em;
+    --font__letter_spacing_n3: -.03em;
+    --font__letter_spacing_n2: -.02em;
+    --font__letter_spacing_n1: -.01em;
+    --font__letter_spacing_1: .01em;
+    --font__letter_spacing_2: .02em;
+    --font__letter_spacing_3: .03em;
+    --font__letter_spacing_4: .04em;
+    --font__letter_spacing_5: .05em;
+    --font__letter_spacing_6: .06em;
+    --font__letter_spacing_7: .07em;
+    --font__letter_spacing_8: .08em;
+    --font__letter_spacing_9: .09em;
+    --font__letter_spacing_10: .1em;
+    --font__line_height_1: 1em;
+    --font__line_height_2: 1.2em;
+    --font__line_height_3: 1.3em;
+    --font__line_height_4: 1.4em;
+    --font__line_height_5: 1.5em;
+    --font__line_height_6: 1.6em;
+    --font__line_height_7: 1.7em;
+    --font__line_height_8: 1.8em;
+    --font__line_height_9: 1.9em;
+    --font__line_height_10: 2em;
+}
+@media (min-width: 1400px) {
+    :root {
+        --font__size_normal: calc(var(--font__size_body) * 1);
+    } 
+}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/* FLUID ============================================================================== */
+
+@media (min-width: 768px) and (orientation: portrait) {
+    :root .fluid, :root .fluid-md {
+        --font__size_body: calc(calc(calc(calc(var(--scale_factor) / 768) * 100) * 1vw));
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body)); 
+    }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+    :root .fluid, :root .fluid-md {
+        --font__size_body: calc(calc(calc(calc(var(--scale_factor) / 1024) * 100) * 1vmax));
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body)); 
+    }
+}
+@media (min-width: 992px) and (orientation: portrait) {
+    :root .fluid, :root .fluid-md, :root .fluid-lg {
+        --font__size_body: calc(calc(calc(calc(var(--scale_factor) / 992) * 100) * 1vw));
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body)); 
+    }
+}
+@media (min-width: 992px) and (orientation: landscape) {
+    :root .fluid, :root .fluid-md, :root .fluid-lg {
+        --font__size_body: calc(calc(calc(calc(var(--scale_factor) / 1322) * 100) * 1vmax));
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+    }
+}
+@media (min-width: 1200px) {
+    :root .fluid, :root .fluid-md, :root .fluid-lg, :root .fluid-xl {
+        --font__size_body: calc(calc(calc(calc(var(--scale_factor) / 1200) * 100) * 1vw));
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+    }
+}
+@media (min-width: 1400px) {
+    :root .fluid, :root .fluid-md, :root .fluid-lg, :root .fluid-xl, :root .fluid-xxl {
+        --font__size_body: calc(calc(calc(var(--scale_factor) / 1400) * 100) * 1vw);
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body)); 
+    }
+}
+@media (min-width: 1920px) {
+    :root .fluid, :root .fluid-md, :root .fluid-lg, :root .fluid-xl, :root .fluid-xxl, :root .fluid-xxxl {
+        --font__size_body: calc(var(--scale_factor) * 1px);  
+        --font__size_small_6: calc(var(--font__size_body) * .5325);
+        --font__size_small_5: calc(var(--font__size_body) * .5625);
+        --font__size_small_4: calc(var(--font__size_body) * .6);
+        --font__size_small_3: calc(var(--font__size_body) * .75);
+        --font__size_small_2: calc(var(--font__size_body) * .8125);
+        --font__size_small_1: calc(var(--font__size_body) * .875);
+        --font__size_small_0: calc(var(--font__size_body) * .925);
+        --font__size_normal: calc(var(--font__size_body) * 1);
+        --font__size_large_1: calc(var(--font__size_body) * 1.125);
+        --font__size_large_2: calc(var(--font__size_body) * 1.25);
+        --font__size_large_3: calc(var(--font__size_body) * 1.5);
+        --font__size_large_4: calc(var(--font__size_body) * 1.75);
+        --font__size_large_5: calc(var(--font__size_body) * 2);
+        --font__size_large_6: calc(var(--font__size_body) * 2.25);
+        --font__size_large_7: calc(var(--font__size_body) * 2.5);
+        --font__size_large_8: calc(var(--font__size_body) * 3);
+        --font__size_large_9: calc(var(--font__size_body) * 3.5);
+        --font__size_large_10: calc(var(--font__size_body) * 4);
+        --line__thinest: calc(calc(calc(calc(.5 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thiner: calc(calc(calc(calc(1 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thin: calc(calc(calc(calc(2 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__normal: calc(calc(calc(calc(4 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__moderate: calc(calc(calc(calc(6 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thick: calc(calc(calc(calc(10 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thicker: calc(calc(calc(calc(12 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+        --line__thickest: calc(calc(calc(calc(14 * 100) / var(--scale_factor)) / 100) * var(--font__size_body));
+    }
+}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/* ============================================================================== */
+:root {
+
+    --text_color__grey_shade_1: var(--color__grey_shade_4);
+    --text_color__grey_shade_2: var(--color__grey_shade_5);
+    --text_color__grey_shade_3: var(--color__grey_shade_6);
+    --text_color__grey_shade_4: var(--color__grey_shade_7);
+    --text_color__grey_shade_5: var(--color__grey_shade_8);
+    --text_color__grey_shade_6: var(--color__grey_shade_9);
+    --text_color__grey_shade_7: var(--color__grey_shade_10);
+    --text_color__grey_shade_8: var(--color__grey_shade_11);
+
+    --text_color__gray_shade_1: var(--color__gray_shade_1);
+    --text_color__gray_shade_2: var(--color__gray_shade_2);
+    --text_color__gray_shade_3: var(--color__gray_shade_3);
+    --text_color__gray_shade_4: var(--color__gray_shade_4);
+    --text_color__gray_shade_5: var(--color__gray_shade_5);
+    --text_color__gray_shade_6: var(--color__gray_shade_6);
+    --text_color__gray_shade_7: var(--color__gray_shade_7);
+}

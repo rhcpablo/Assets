@@ -1,0 +1,79 @@
+:root {
+    --column_width__narrower: 100%;
+    --column_width__narrow: 100%;
+    --column_width__medium: 100%;
+    --column_width__wide: 100%;
+    --column_width__wider: 100%;
+}
+@media (min-width: 420px) {
+    :root {
+        --column_width__narrower: 420px;
+        --column_width__narrow: 420px;
+        --column_width__medium: 420px;
+        --column_width__wide: 420px;
+        --column_width__wider: 420px;
+    }
+}
+@media (min-width: 768px) and (orientation: portrait) {
+    :root {
+        --column_width__narrower: calc(1vw * calc(calc(calc(768 - 48*2) * 100) / 768));
+        --column_width__narrow: calc(1vw * calc(calc(calc(768 - 40*2) * 100) / 768));
+        --column_width__medium: calc(1vw * calc(calc(calc(768 - 32*2) * 100) / 768));
+        --column_width__wide: calc(1vw * calc(calc(calc(768 - 24*2) * 100) / 768));
+        --column_width__wider: calc(1vw * calc(calc(calc(768 - 16*2) * 100) / 768));
+    }
+}
+@media (min-width: 768px) and (orientation: landscape) {
+    :root {
+        --column_width__narrower: calc(1vmax * calc(calc(calc(1024 - 48*2) * 100) / 1024));
+        --column_width__narrow: calc(1vmax * calc(calc(calc(1024 - 40*2) * 100) / 1024));
+        --column_width__medium: calc(1vmax * calc(calc(calc(1024 - 32*2) * 100) / 1024));
+        --column_width__wide: calc(1vmax * calc(calc(calc(1024 - 24*2) * 100) / 1024));
+        --column_width__wider: calc(1vmax * calc(calc(calc(1024 - 16*2) * 100) / 1024));
+    }
+}
+@media (min-width: 992px) and (orientation: portrait) {
+    :root {
+        --column_width__narrower: calc(1vw * calc(calc(calc(992 - 48*2) * 100) / 992));
+        --column_width__narrow: calc(1vw * calc(calc(calc(992 - 40*2) * 100) / 992));
+        --column_width__medium: calc(1vw * calc(calc(calc(992 - 32*2) * 100) / 992));
+        --column_width__wide: calc(1vw * calc(calc(calc(992 - 24*2) * 100) / 992));
+        --column_width__wider: calc(1vw * calc(calc(calc(992 - 16*2) * 100) / 992));
+    }
+}
+@media (min-width: 992px) and (orientation: landscape) {
+    :root {
+        --column_width__narrower: calc(1vmax * calc(calc(calc(1322 - 48*2) * 100) / 1322));
+        --column_width__narrow: calc(1vmax * calc(calc(calc(1322 - 40*2) * 100) / 1322));
+        --column_width__medium: calc(1vmax * calc(calc(calc(1322 - 32*2) * 100) / 1322));
+        --column_width__wide: calc(1vmax * calc(calc(calc(1322 - 24*2) * 100) / 1322));
+        --column_width__wider: calc(1vmax * calc(calc(calc(1322 - 16*2) * 100) / 1322));
+    }
+}
+@media (min-width: 1200px) {
+    :root {
+        --column_width__narrower: calc(1vw * calc(calc(calc(1200 - 48*2) * 100) / 1200));
+        --column_width__narrow: calc(1vw * calc(calc(calc(1200 - 40*2) * 100) / 1200));
+        --column_width__medium: calc(1vw * calc(calc(calc(1200 - 32*2) * 100) / 1200));
+        --column_width__wide: calc(1vw * calc(calc(calc(1200 - 24*2) * 100) / 1200));
+        --column_width__wider: calc(1vw * calc(calc(calc(1200 - 16*2) * 100) / 1200));
+    }
+}
+@media (min-width: 1400px) {
+    :root {
+        --column_width__narrower: calc(1vw * calc(calc(calc(calc(1400 - calc(1400 - 1296)) - 48*2) * 100) / 1400));  
+        --column_width__narrow: calc(1vw * calc(calc(calc(calc(1400 - calc(1400 - 1280)) - 40*2) * 100) / 1400));
+        --column_width__medium: calc(1vw * calc(calc(calc(calc(1400 - calc(1400 - 1264)) - 32*2) * 100) / 1400));
+        --column_width__wide: calc(1vw * calc(calc(calc(calc(1400 - calc(1400 - 1248)) - 24*2) * 100) / 1400));
+        --column_width__wider: calc(1vw * calc(calc(calc(calc(1400 - calc(1400 - 1232)) - 16*2) * 100) / 1400));     
+    }
+}
+@media (min-width: 1920px) {
+    :root {
+        --column_width__narrower: 1400px;
+        --column_width__narrow: 1500px;
+        --column_width__medium: 1600px;
+        --column_width__wide: 1700px;
+        --column_width__wider: 1800px;
+    }
+}

@@ -1,0 +1,49 @@
+$bootstrap-icons-lite-font: "bootstrap-icons-lite" !default;
+$bootstrap-icons-lite-font-src: url("./fonts/bootstrap-icons-lite.woff2?a74547b2f0863226942ff8ded57db345") format("woff2"),
+url("./fonts/bootstrap-icons-lite.woff?a74547b2f0863226942ff8ded57db345") format("woff") !default;
+
+@font-face {
+  font-family: $bootstrap-icons-lite-font;
+  src: $bootstrap-icons-lite-font-src;
+}
+
+.bi-lite::before,
+[class^="bi-lite"]::before,
+[class*=" bi-lite"]::before {
+  display: inline-block;
+  font-family: $bootstrap-icons-lite-font !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+$bootstrap-icons-lite-map: (
+  "arrow-down-short": "\f124",
+  "arrow-left-short": "\f12c",
+  "arrow-right-short": "\f135",
+  "arrow-up-short": "\f145",
+  "exclamation": "\f33c",
+  "chevron-left": "\f284",
+  "chevron-right": "\f285",
+  "chevron-up": "\f286",
+  "chevron-down": "\f282",
+  "download": "\f30a",
+  "list": "\f479"
+);
+
+.bi-lite-arrow-down-short::before { content: map-get($bootstrap-icons-map, "arrow-down-short"); }
+.bi-lite-arrow-left-short::before { content: map-get($bootstrap-icons-map, "arrow-left-short"); }
+.bi-lite-arrow-right-short::before { content: map-get($bootstrap-icons-map, "arrow-right-short"); }
+.bi-lite-arrow-up-short::before { content: map-get($bootstrap-icons-map, "arrow-up-short"); }
+.bi-lite-exclamation::before { content: map-get($bootstrap-icons-map, "exclamation"); }
+.bi-lite-chevron-down::before { content: map-get($bootstrap-icons-lite-map, "chevron-down"); }
+.bi-lite-chevron-left::before { content: map-get($bootstrap-icons-lite-map, "chevron-left"); }
+.bi-lite-chevron-right::before { content: map-get($bootstrap-icons-lite-map, "chevron-right"); }
+.bi-lite-chevron-up::before { content: map-get($bootstrap-icons-lite-map, "chevron-up"); }
+.bi-lite-download::before { content: map-get($bootstrap-icons-lite-map, "download"); }
+.bi-lite-list::before { content: map-get($bootstrap-icons-lite-map, "list"); }

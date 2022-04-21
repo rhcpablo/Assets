@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "bootstrap-icons-lite";
+
+    src: url("./fonts/bootstrap-icons-lite.woff2") format("woff2"),
+    url("./fonts/bootstrap-icons-lite.woff") format("woff");
+}
+
+.bi-lite::before,
+[class^="bi-lite"]::before,
+[class*=" bi-lite"]::before {
+    display: inline-block;
+
+    font-family: bootstrap-icons-lite !important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    line-height: 1;
+
+    vertical-align: -.125em;
+    text-transform: none;
+}
+
+.bi-lite-arrow-down-short::before { content: "\f124"; }
+.bi-lite-arrow-left-short::before { content: "\f12c"; }
+.bi-lite-arrow-right-short::before { content: "\f135"; }
+.bi-lite-arrow-up-short::before { content: "\f145"; }
+.bi-lite-exclamation::before { content: "\f33c"; }
+.bi-lite-chevron-down::before { content: "\f282"; }
+.bi-lite-chevron-left::before { content: "\f284"; }
+.bi-lite-chevron-right::before { content: "\f285"; }
+.bi-lite-chevron-up::before { content: "\f286"; }
+.bi-lite-download::before { content: "\f30a"; }
+.bi-lite-list::before { content: "\f479"; }

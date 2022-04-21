@@ -1,0 +1,664 @@
+.border-grey-1 {
+    border-color: var(--color__grey_shade_1) !important;
+}
+.border-grey-2 {
+    border-color: var(--color__grey_shade_2) !important;
+}
+.border-grey-3 {
+    border-color: var(--color__grey_shade_3) !important;
+}
+.border-grey-4 {
+    border-color: var(--color__grey_shade_4) !important;
+}
+.border-grey-5 {
+    border-color: var(--color__grey_shade_4) !important;
+}
+.border-grey-6 {
+    border-color: var(--color__grey_shade_8) !important;
+}
+.border-grey-7 {
+    border-color: var(--color__grey_shade_9) !important;
+}
+.border-grey-8 {
+    border-color: var(--color__grey_shade_10) !important;
+}
+.border-black {
+    border-color: #000 !important;
+}
+.border-white {
+    border-color: #fff !important;
+}
+.border-gray-1 {
+    border-color: var(--color__gray_shade_1) !important;
+}
+.border-gray-2 {
+    border-color: var(--color__gray_shade_2) !important;
+}
+.border-gray-3 {
+    border-color: var(--color__gray_shade_3) !important;
+}
+.border-gray-4 {
+    border-color: var(--color__gray_shade_4) !important;
+}
+.border-gray-5 {
+    border-color: var(--color__gray_shade_5) !important;
+}
+.border-gray-6 {
+    border-color: var(--color__gray_shade_6) !important;
+}
+.border-gray-7 {
+    border-color: var(--color__gray_shade_7) !important;
+}
+.border-blue-1 {
+    border-color: var(--color__blue_shade_1) !important;
+}
+.border-blue-2 {
+    border-color: var(--color__blue_shade_2) !important;
+}
+.border-blue-3 {
+    border-color: var(--color__blue_shade_3) !important;
+}
+.border-blue-4 {
+    border-color: var(--color__blue_shade_4) !important;
+}
+.border-blue-5 {
+    border-color: var(--color__blue_shade_5) !important;
+}
+.border-blue-6 {
+    border-color: var(--color__blue_shade_6) !important;
+}
+.border-blue-7 {
+    border-color: var(--color__blue_shade_7) !important;
+}
+@media (max-width:575px) {
+	.border-xs-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-xs-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-xs-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-xs-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xs-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xs-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-xs-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-xs-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-xs-black {
+	    border-color: #000 !important;
+	}
+	.border-xs-white {
+	    border-color: #fff !important;
+	}
+	.border-xs-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-xs-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-xs-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-xs-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-xs-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-xs-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-xs-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-xs-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-xs-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-xs-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-xs-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-xs-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-xs-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-xs-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:576px) {
+	.border-sm-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-sm-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-sm-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-sm-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-sm-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-sm-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-sm-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-sm-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-sm-black {
+	    border-color: #000 !important;
+	}
+	.border-sm-white {
+	    border-color: #fff !important;
+	}
+	.border-sm-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-sm-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-sm-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-sm-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-sm-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-sm-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-sm-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-sm-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-sm-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-sm-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-sm-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-sm-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-sm-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-sm-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:768px) {
+	.border-md-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-md-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-md-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-md-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-md-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-md-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-md-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-md-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-md-black {
+	    border-color: #000 !important;
+	}
+	.border-md-white {
+	    border-color: #fff !important;
+	}
+	.border-md-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-md-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-md-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-md-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-md-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-md-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-md-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-md-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-md-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-md-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-md-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-md-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-md-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-md-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:992px) {
+	.border-lg-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-lg-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-lg-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-lg-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-lg-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-lg-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-lg-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-lg-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-lg-black {
+	    border-color: #000 !important;
+	}
+	.border-lg-white {
+	    border-color: #fff !important;
+	}
+	.border-lg-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-lg-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-lg-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-lg-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-lg-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-lg-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-lg-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-lg-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-lg-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-lg-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-lg-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-lg-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-lg-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-lg-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:1200px) {
+	.border-xl-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-xl-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-xl-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-xl-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xl-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xl-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-xl-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-xl-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-xl-black {
+	    border-color: #000 !important;
+	}
+	.border-xl-white {
+	    border-color: #fff !important;
+	}
+	.border-xl-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-xl-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-xl-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-xl-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-xl-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-xl-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-xl-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-xl-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-xl-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-xl-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-xl-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-xl-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-xl-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-xl-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:1400px) {
+	.border-xxl-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-xxl-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-xxl-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-xxl-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xxl-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xxl-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-xxl-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-xxl-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-xxl-black {
+	    border-color: #000 !important;
+	}
+	.border-xxl-white {
+	    border-color: #fff !important;
+	}
+	.border-xxl-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-xxl-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-xxl-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-xxl-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-xxl-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-xxl-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-xxl-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-xxl-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-xxl-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-xxl-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-xxl-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-xxl-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-xxl-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-xxl-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:1920px) {
+	.border-xxxl-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-xxxl-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-xxxl-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-xxxl-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xxxl-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xxxl-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-xxxl-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-xxxl-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-xxxl-black {
+	    border-color: #000 !important;
+	}
+	.border-xxxl-white {
+	    border-color: #fff !important;
+	}
+	.border-xxxl-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-xxxl-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-xxxl-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-xxxl-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-xxxl-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-xxxl-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-xxxl-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-xxxl-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-xxxl-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-xxxl-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-xxxl-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-xxxl-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-xxxl-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-xxxl-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
+@media (min-width:2560px) {
+	.border-xxxxl-grey-1 {
+	    border-color: var(--color__grey_shade_1) !important;
+	}
+	.border-xxxxl-grey-2 {
+	    border-color: var(--color__grey_shade_2) !important;
+	}
+	.border-xxxxl-grey-3 {
+	    border-color: var(--color__grey_shade_3) !important;
+	}
+	.border-xxxxl-grey-4 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xxxxl-grey-5 {
+	    border-color: var(--color__grey_shade_4) !important;
+	}
+	.border-xxxxl-grey-6 {
+	    border-color: var(--color__grey_shade_8) !important;
+	}
+	.border-xxxxl-grey-7 {
+	    border-color: var(--color__grey_shade_9) !important;
+	}
+	.border-xxxxl-grey-8 {
+	    border-color: var(--color__grey_shade_10) !important;
+	}
+	.border-xxxxl-black {
+	    border-color: #000 !important;
+	}
+	.border-xxxxl-white {
+	    border-color: #fff !important;
+	}
+	.border-xxxxl-gray-1 {
+	    border-color: var(--color__gray_shade_1) !important;
+	}
+	.border-xxxxl-gray-2 {
+	    border-color: var(--color__gray_shade_2) !important;
+	}
+	.border-xxxxl-gray-3 {
+	    border-color: var(--color__gray_shade_3) !important;
+	}
+	.border-xxxxl-gray-4 {
+	    border-color: var(--color__gray_shade_4) !important;
+	}
+	.border-xxxxl-gray-5 {
+	    border-color: var(--color__gray_shade_5) !important;
+	}
+	.border-xxxxl-gray-6 {
+	    border-color: var(--color__gray_shade_6) !important;
+	}
+	.border-xxxxl-gray-7 {
+	    border-color: var(--color__gray_shade_7) !important;
+	}
+	.border-xxxxl-blue-1 {
+	    border-color: var(--color__blue_shade_1) !important;
+	}
+	.border-xxxxl-blue-2 {
+	    border-color: var(--color__blue_shade_2) !important;
+	}
+	.border-xxxxl-blue-3 {
+	    border-color: var(--color__blue_shade_3) !important;
+	}
+	.border-xxxxl-blue-4 {
+	    border-color: var(--color__blue_shade_4) !important;
+	}
+	.border-xxxxl-blue-5 {
+	    border-color: var(--color__blue_shade_5) !important;
+	}
+	.border-xxxxl-blue-6 {
+	    border-color: var(--color__blue_shade_6) !important;
+	}
+	.border-xxxxl-blue-7 {
+	    border-color: var(--color__blue_shade_7) !important;
+	}
+}
